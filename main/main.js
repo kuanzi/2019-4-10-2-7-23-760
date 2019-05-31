@@ -28,8 +28,8 @@ function taxi(distance , parkTime){
     var wait_money = 0; // 等待费用
     wait_money = parkTime * 0.25;
 
-    console.log(distance_money);
-    console.log(wait_money);
+    // console.log(distance_money);
+    // console.log(wait_money);
     return wait_money + distance_money;
 }
 //测试
