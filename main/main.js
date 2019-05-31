@@ -21,9 +21,12 @@ function taxi(distance , parkTime){
         distance_money = 6 ; //2公里以内 起步价6元
     }else if(distance > 2 && distance <= 8){
         distance_money = 6 + (distance - 2) * 0.8;
+    }else if(distance > 8){
+        distance_money = 6 + 6 * 0.8 + ( distance - 8) * 1.2;
     }
 
     var wait_money = 0; // 等待费用
+    wait_money = parkTime * 0.25;
 
     console.log(distance_money);
     console.log(wait_money);
