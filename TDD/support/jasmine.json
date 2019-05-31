@@ -1,7 +1,7 @@
 {
   "spec_dir": "TDD",
   "spec_files": [
-    "**/*uni-test.js"
+    "**/*unit-test.js"
   ],
   "helpers": [
     "helpers/**/*.js"
